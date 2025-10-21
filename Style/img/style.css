@@ -1,5 +1,37 @@
+
+*{padding: 0;margin: 0;}
+
 .head-pattern {
     background-image: url(/Style/img/pattern.png);
     background-repeat: repeat-x;
+    background-color: #47a2fc;
+    height: 180px;
+    }
+    
+.head-logo {
+    padding-top: 80px; 
+    padding-left: 150px;
 }
- 
+
+.article-structure{
+    padding-left: 150px;
+}
+    
+.main-title {
+    font-size: 100px;
+    padding-top: 70px;
+}
+
+.author {
+    font-size: 50px;
+    color: grey;
+}
+
+.date-article {
+    font-size: 30px;
+    color: grey;
+}
+
+.boolean-blu {
+    color: #9acee5;
+}
