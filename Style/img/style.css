@@ -10,11 +10,12 @@
     
 .head-logo {
     padding-top: 80px; 
-    padding-left: 150px;
+    padding-left: 200px;
 }
 
-.article-structure{
-    padding-left: 150px;
+.page-structure{
+    padding-left: 200px;
+    padding-right: 200px;
 }
     
 .main-title {
@@ -32,6 +33,64 @@
     color: grey;
 }
 
+.head-photo {
+height: 800px;
+}
+
 .boolean-blu {
     color: #9acee5;
+}
+
+.didascalie {
+    font-size:  30px;
+    margin-bottom: 20px ;
+}
+.general-text {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.lista{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+
+
+
+table{
+    font-size: 40px;
+}
+
+
+.table-general{
+    /* border: red solid 4px; */
+    margin-bottom: 50px;
+}
+
+.table-head{
+    background-color: #21a9e6;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.larghezza{
+    width: 500px;
+}
+
+.line-table-A {
+    background-color: #b1e6f2;
+}
+.line-table-B {
+    background-color:white;
+}
+
+.suggerimenti{
+    font-size: 50px;
+    color: grey;
 }
