@@ -1,5 +1,14 @@
 
-*{padding: 0;margin: 0;}
+*{
+    padding: 0;
+    margin: 0; 
+    
+    // GOOGLE FONTS RECALL
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
 
 .head-pattern {
     background-image: url(/Style/img/pattern.png);
@@ -52,7 +61,7 @@ height: 800px;
 
 .lista{
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 article {
@@ -91,6 +100,13 @@ table{
 }
 
 .suggerimenti{
-    font-size: 50px;
+    font-size: 40px;
     color: grey;
+    margin-bottom: 20px;
+}
+
+.footer-images{
+    width: 800px;
+    display: block;
+    margin-bottom: 20px;
 }
