@@ -104,9 +104,26 @@ table{
     color: grey;
     margin-bottom: 20px;
 }
-
 .footer-images{
     width: 800px;
     display: block;
+}
+.background-img-1 {
+    background-size: 400px
+    background-repeat: no-repeat;
+    background-image: url(/Style/img/monitor.jpg)
+    ;
+}
+
+.card{
+    position: relative;
     margin-bottom: 20px;
+}
+
+.overlay-text{
+    position: absolute;
+    font-size: 50px;
+    left: 12px;
+    top: 12px;
+    color: white;
 }
