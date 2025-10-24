@@ -15,16 +15,18 @@
     background-repeat: repeat-x;
     background-color: #47a2fc;
     height: 180px;
-    }
-    
+}
+
 .head-logo {
-    padding-top: 80px; 
-    padding-left: 200px;
+    margin-top: 65px; 
+    margin-left: 565px;
+    width: 400px;
 }
 
 .page-structure{
-    padding-left: 200px;
-    padding-right: 200px;
+   width: 80%;
+   align-items: center;
+   margin: 0 auto;
 }
     
 .main-title {
@@ -63,6 +65,9 @@ height: 800px;
     font-size: 30px;
     margin-bottom: 50px;
 }
+.larghezza-colonna{
+    width: 50%;
+}
 
 article {
     margin-bottom: 40px;
@@ -99,15 +104,17 @@ table{
     background-color:white;
 }
 
+/* Versione Pre correzione */
+/* 
 .suggerimenti{
     font-size: 40px;
     color: grey;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 .footer-images{
     width: 800px;
     display: block;
-}
+} 
 .background-img-1 {
     background-size: 400px
     background-repeat: no-repeat;
@@ -117,7 +124,7 @@ table{
 
 .card{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .overlay-text{
@@ -126,4 +133,33 @@ table{
     left: 12px;
     top: 12px;
     color: white;
+} */
+
+.suggerimenti{
+    font-size: 50px;
+    color: grey;
+    margin-bottom: 30px;
+}
+.titoli-suggerimenti{
+    color: white;
+    font-size: 40px;
+}
+
+.image{
+    width: 500px;
+    height: 400px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+#image-monitor{
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-image: url(/Style/img/monitor.jpg);
+}
+
+#image-graph{
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-image: url(/Style/img/graph.jpg);
 }
